@@ -600,12 +600,18 @@ progress {
 .blockquote-footer::before {
   content: "— ";
 }
-
+#img-grafica {
+  height: 60%;
+}
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 300px;
 }
-
+#img-fluid-1 {
+  position: relative;
+  top: -40px;
+  transform: rotate(15deg);
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -6814,7 +6820,7 @@ textarea.form-control-lg {
 
 .text-bg-black {
   color: #fff !important;
-  background-color: RGBA(0, 0, 0, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(128, 191, 255, var(--bs-bg-opacity, 1)) !important;
 }
 
 .text-bg-white {
@@ -11069,7 +11075,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/salud.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/salud2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11080,7 +11086,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgb(165 176 181 / 90%), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11119,8 +11125,23 @@ body {
   margin-bottom: 5rem;
 }
 
+.projects-section1 {
+  padding: 10rem 0 0 0;
+}
+.swal2-actions {
+  gap: 20px;
+}
+.title {
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: #fff;
+}
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0 10rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11143,7 +11164,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/salud5.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
